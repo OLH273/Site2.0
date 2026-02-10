@@ -235,6 +235,10 @@ export function App() {
             }
           : student
       )
+      return (
+      <div className={cn("min-h-screen p-4")}>
+        <Barcode />
+      </div>
     );
   };
 
